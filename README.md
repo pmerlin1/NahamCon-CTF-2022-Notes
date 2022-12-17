@@ -11,4 +11,4 @@ This is a fun privilege escelation challenge.
 > Author: [@JohnHammond#6971](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
 
 Play with some PHP, get flag out of `/flag.txt`
-[Writeup](byepass.MD)
+[Writeup](bypass.MD)
