@@ -21,3 +21,10 @@ Play with some PHP, get flag out of `/flag.txt`
 Another web challenge. Particularly challenging due to so many rabbit holes you can fall in to, but the solution is simple. Still only 5 out of 1000+ CTF participants got this during competition. Hat tip to congon4tor for giving a few hints after competition on how to resolve this.
 
 [Writeup](RecurseCTF.MD)
+
+# RaaS (DevOps)
+> Author: @congon4tor#2334
+
+Try to poison a CI/CD pipeline. Always remember that CI/CD = Remote Code Exec by design. Hmm.
+
+[Writeup](RaaS.MD)
