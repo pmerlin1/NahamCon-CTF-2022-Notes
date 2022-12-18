@@ -1,11 +1,13 @@
 # Recurse CTF
 > A CTF inside a CTF?
+> 
 > I know you have always wanted to hack a CTF... this is your chance! The admin has the real flag.
+> 
 > Some light scanning is allowed for this challenge 
 
 I found this to be a very challenging flag to obtain. I failed to do so during competition, and only resolved it after getting a hint from the creator. 
 
-This environment has a huge number of rabbit holes to fall in to -- remember during these CTF events to follow KISS.
+This environment has a huge number of rabbit holes to fall in to. Rmember during these CTF events to follow KISS.
 
 Open the CTF site and check your cookies. Observe a cookie named `redis-session`. We have a Redis server to target.
 
@@ -59,7 +61,6 @@ Lets create an account on the site and log in, and then check for a new key:
 10.112.6.197:6379> keys *
 1) "session:348d6f5f-eea0-43d4-b7ed-ca3e0f40ca91"
 2) "session:2da39ba1-ccdd-4300-af62-085eac9d8938"
-3) "session:d83ba254-15f7-49ee-b50f-47ff5c353367"
 10.112.6.197:6379> get session:2da39ba1-ccdd-4300-af62-085eac9d8938
 "\x80\x04\x95\x0b\x00\x00\x00\x00\x00\x00\x00}\x94\x8c\x02id\x94K\x02s."
 ```
