@@ -43,25 +43,16 @@ It doesn't matter as the command step includes a command injection vulnerability
 Success:
 ```
 + sh -c "echo $DRONE_COMMIT_MESSAGE"
-
 x3
-
 flag{ede21e1d34dc5d783d93677c7fc254e2}
-
 DRONE_BRANCH=master
-
 DRONE_COMMIT_AUTHOR_AVATAR=http://git.challenge.nahamcon.com:32735/avatars/6199b84099dff1729dbc0b49895adb6c
-
 DRONE_SYSTEM_HOST=drone.challenge.nahamcon.com:32735
-
 GIT_COMMITTER_NAME=drone
-
 DRONE_GIT_SSH_URL=git@localhost:JustHacking/RaaS.git
-
 CI_BUILD_TARGET=
-
 GIT_AUTHOR_EMAIL=developer@noreply.localhost
 <SNIP>
 ```
 
-Fun challenge, again thanks congon4tor
+Fun challenge, again thanks congon4tor!
