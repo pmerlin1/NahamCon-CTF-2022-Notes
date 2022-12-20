@@ -28,3 +28,10 @@ Another web challenge. Particularly challenging due to so many rabbit holes you 
 Try to poison a CI/CD pipeline. Always remember that CI/CD = Remote Code Exec by design. Hmm.
 
 [Writeup](RaaS.MD)
+
+# Dizzy (DevOps)
+> Author: @congon4tor#2334
+
+Another challenge with CI/CD.
+
+[Writeup](Dizzy.MD)
